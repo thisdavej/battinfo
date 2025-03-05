@@ -4,13 +4,13 @@ A command-line tool for retrieving battery information, built using the excellen
 
 ## Installation
 
-```bash
+```sh
 cargo install battinfo
 ```
 
 ## Usage
 
-```bash
+```sh
 battinfo --help
 Usage: battinfo [--vendor] [-m] [--serial-number] [-g] [--capacity] [-b <battery-number>]
                 [-a] [-c] [-p] [-s] [-e] [-f] [-i <time-format>] [-t] [-u <temperature-unit>]
@@ -56,7 +56,7 @@ Options:
 
 - Display all battery info
 
-    ```bash
+    ```sh
     battinfo --all
 
     # This can also be accomplished by omitting all arguments
@@ -86,7 +86,7 @@ Options:
 
 - Display basic battery information in compact format:
 
-    ```bash
+    ```sh
     # long argument option
     battinfo --compact
 
@@ -102,7 +102,7 @@ Options:
 
 - Display detailed battery information on percent full, battery state, and time to empty:
 
-    ```bash
+    ```sh
     # short argument options
     battinfo -p -s -e
 
@@ -120,7 +120,7 @@ Options:
 
 - Output battery information in JSON format:
 
-    ```bash
+    ```sh
     battinfo -p -s -v --json
     ```
 
@@ -132,7 +132,7 @@ Options:
 
 - Output all battery information in JSON format:
 
-    ```bash
+    ```sh
     battinfo --all --json
     ```
 
