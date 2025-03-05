@@ -10,7 +10,7 @@ cargo install battinfo
 
 ## Usage
 
-```sh
+```text
 battinfo --help
 Usage: battinfo [--vendor] [-m] [--serial-number] [-g] [--capacity] [-b <battery-number>]
                 [-a] [-c] [-p] [-s] [-e] [-f] [-i <time-format>] [-t] [-u <temperature-unit>]
