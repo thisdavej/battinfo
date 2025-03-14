@@ -89,7 +89,7 @@ pub mod internal {
             vendor: battery.vendor().unwrap_or("Unknown").to_string(),
             model: battery.model().unwrap_or("Unknown").to_string(),
             serial_number: battery.serial_number().unwrap_or("Unknown").trim().to_string(),
-            technology: format!("{:?}", battery.technology()),
+            technology: format!("{}", battery.technology()),
             state: battery.state(),
             capacity: battery.state_of_health().value * 100.0,
             temperature: format_temperature(battery.temperature(), temp_unit),
